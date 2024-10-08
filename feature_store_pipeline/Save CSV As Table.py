@@ -2,7 +2,7 @@
 # Settings to connect to Azure storage account blob storage
 spark.conf.set("fs.azure.account.auth.type.edsdbpocdata.dfs.core.windows.net", "SAS")
 spark.conf.set("fs.azure.sas.token.provider.type.edsdbpocdata.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.sas.FixedSASTokenProvider")
-spark.conf.set("fs.azure.sas.fixed.token.edsdbpocdata.dfs.core.windows.net", "sv=2022-11-02&ss=bfqt&srt=co&sp=rwdlacupiytfx&se=2025-12-05T23:20:35Z&st=2024-10-08T14:20:35Z&spr=https&sig=u%2F3obQPLORBrQlfwRpsDdR20b24eu2CbfFncvZllVEw%3D")
+spark.conf.set("fs.azure.sas.fixed.token.edsdbpocdata.dfs.core.windows.net", "sp=racwdl&st=2024-10-08T14:39:27Z&se=2025-10-08T22:39:27Z&sv=2022-11-02&sr=c&sig=EG1jirsX7t8ug7fXInR3C2ylLt7DTRnrJkVSdZkTU%2Fg%3D")
 
 # COMMAND ----------
 
